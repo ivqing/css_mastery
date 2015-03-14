@@ -1,0 +1,30 @@
+/* @color variables
+ * @cocordef #343434: dark green
+ * @colordef #fff: blue
+-------------------------------------------------- */
+/* @todo:
+-------------------------------------------------- */
+/* @workaround:
+-------------------------------------------------- */
+/* @bug-fix:
+-------------------------------------------------- */
+
+body {
+	background-image: url(1.jpg);
+	background-repeat: repeat-y;
+	background-color: red;
+}
+
+h1 {
+	padding-left: 30px;
+	background-image: url(eg_cute.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+#branding {
+	width: 700px;
+	height: 200px;
+	background-image: url(0.jpg);
+	background-repeat: no-repeat;
+}
