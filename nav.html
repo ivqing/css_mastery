@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" type="text/html" content=" ; charset='utf-8'" />
+<title>navigation bar</title>
+<style>
+
+/* vertical navigation bar */
+ul.nav {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	width: 8em;
+	background-color: #8bd400;
+	border: 1px solid black;
+}
+
+ul.nav a {
+	display: block;
+	color: #2b3f00;
+	text-decoration: none;
+	border-top: 1px solid #e4ffd3;
+	border-bottom: 1px solid #486b02;
+	padding: 0.3em 1em;
+}
+
+ul.nav a:hover {
+	color: black;
+	background-color: silver;
+}
+
+/* horizental navigation bar */
+ol.pagination {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+ol.pagination li {
+	float: left;
+	margin-right: 0.6em;
+}
+
+ol.pagination a,
+ol.pagination li.selected {
+	display: block;
+	padding: 0.2em 0.5em;
+	border: 1px solid #ccc;
+	text-decoration: none;
+}
+
+ol.pagination a:hover,
+ol.pagination a:focus,
+ol.pagination li.selected{
+	background-color: blue;
+	color: white;
+}
+
+ol.pagination a[rel="prev"],
+ol.pagination a[rel="next"] {
+	border: none;
+}
+
+ol.pagination a[rel="prev"]:before {
+	content: "\00ab";
+	padding-right: 0.5em;
+}
+ol.pagination a[rel="next"]:after {
+	content: "\00bb";
+	padding-left: 0.5em;
+}
+
+/* graphical nav bar */
+
+</style>
+</head>
+
+<body>
+
+<!--vertical nav-->
+<ul class="nav">
+	<li><a href="#home">Home</a></li>
+	<li><a href="#About">About</a></li>
+	<li><a href="#Service">Our Serviecs</a></li>
+	<li><a href="#Work">Our Work</a></li>
+	<li><a href="#News">News</a></li>
+	<li><a href="#Contact">Contact</a></li>
+</ul>
+
+<!--horizental nav-->
+<ol class="pagination">
+	<li><a href="#1" rel="prev">Pre</a></li>
+	<li><a href="#1">1</a></li>
+	<li class="selected">2</li>
+	<li><a href="#3">3</a></li>
+	<li><a href="#4">4</a></li>
+	<li><a href="#5">5</a></li>
+	<li><a href="#1" rel="next">Next</a></li>
+</ol>
+
+<!--graphical nav-->
+<ul class="granav">
+	<li><a href="#home">Home</a></li>
+	<li><a href="#About">About</a></li>
+	<li><a href="#News">News</a></li>
+	<li><a href="#products">Prodcuts</a></li>
+	<li><a href="#services">Services</a></li>
+	<li><a href="#clients">Clients</a></li>
+	<li><a href="#case-studies">Case Studies</a></li>
+</ul>
+
+</body>
+</html>
