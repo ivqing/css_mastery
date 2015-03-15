@@ -1,0 +1,15 @@
+.img-wrapper {
+	float: bottom;
+	clear: left;
+}
+
+.img-wrapper img {
+	background-color: #fff;
+	border: 2px solid blue;
+	padding: 4px;
+}
+
+#float_test img {
+	box-shadow: 3px 3px 6px #666; /* css3 */
+	border-radius: 2em;
+}
