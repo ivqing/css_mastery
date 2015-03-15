@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset='utf-8" />
+<title>css opacity</title>
+<link type="text/css" rel="Stylesheet" href="opacity.css" />
+</head>
+
+<body>
+
+<h1>css opacity</h1>
+
+<p>css opacity has been available in most modern browsers for quite some time, so I'm surprise that it's not used more often.Unsurprisingly, it isn't supported by older version of Internet Explorer.however, a quick bit of ie-specific code will fix tha problem. as an example of its use, imagine you wanted to pop up an aler message to your users, layring it ober the exising document so they could still see waht was underneath.
+</p>
+
+<div class="alert">
+	<p>Here's Me<br />
+this box is opaque. That means you can see through it.<br />
+cool huh?
+</p>
+</div>
+
+<p>he one big problem with CSS opacity is that it’s inherited by the contents of the element you’re
+applying it to, as well as the background. So if you look closely at Figure 4-23, you’ll see that the
+text on the page is showing through the alert text as well. This doesn’t matter if you’re using a
+very high opacity in combination with high-contrast text. However, with lower opacities, the
+content of your box can start to get unreadable. This is where RGBa comes in.</p>
+
+</body>
+</html>

@@ -1,0 +1,11 @@
+.alert {
+	background-color: black;
+	border-radius: 2em;
+	opacity: 0.4;
+	filter: alpha(opacity=80); /* proprietary ie code ;) */
+}
+
+.alert p {
+	color: white;
+	text-align: center;
+}
